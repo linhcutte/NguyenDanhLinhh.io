@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -7,22 +7,36 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #4CAF50;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
 
 main {
-    padding: 1rem 2rem;
+    padding: 2rem;
 }
 
 #about, #gallery {
     margin-bottom: 2rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #333;
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 0.5rem;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1rem;
+    border: 3px solid #4CAF50;
 }
 
 .gallery {
@@ -33,6 +47,8 @@ h2 {
 .gallery img {
     width: 30%;
     border-radius: 0.5rem;
+    border: 3px solid #4CAF50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -40,7 +56,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
