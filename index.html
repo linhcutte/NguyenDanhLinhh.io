@@ -3,32 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giới thiệu về Nguyễn</title>
+    <title>Nguyễn - Hồ sơ cá nhân</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Nguyễn - Giới thiệu</h1>
+        <div class="container">
+            <h1>Nguyễn</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Giới thiệu</a></li>
+                    <li><a href="#gallery">Thư viện ảnh</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section id="about">
+        <section id="about" class="container">
             <div class="profile">
                 <div class="profile-pic">
                     <img src="images/image.jpeg" alt="Ảnh của Nguyễn">
                 </div>
                 <div class="profile-info">
                     <h2>Về tôi</h2>
-                    <p>Xin chào! Tôi là Nguyễn. Tôi là một người đầy đam mê và nhiệt huyết với công việc của mình. Hiện tại, tôi đang làm việc tại [Công ty/Tổ chức] với vai trò [Vị trí công việc]. Trong thời gian rảnh, tôi thích [Sở thích/Hoạt động yêu thích].</p>
-                    <p>Bạn có thể liên hệ với tôi qua email: [email@example.com] hoặc theo dõi tôi trên các mạng xã hội.</p>
+                    <p>Xin chào! Tôi là Nguyễn. Tôi luôn đam mê học hỏi và phát triển bản thân trong lĩnh vực [Lĩnh vực làm việc]. Tôi hiện đang làm việc tại [Công ty/Tổ chức] với vai trò [Vị trí công việc].</p>
+                    <p>Trong thời gian rảnh, tôi thích [Sở thích/Hoạt động yêu thích]. Hãy kết nối với tôi để cùng nhau khám phá những điều thú vị!</p>
+                    <a href="#contact" class="btn">Liên hệ ngay</a>
                 </div>
             </div>
         </section>
-        <section id="gallery">
+        <section id="gallery" class="container">
             <h2>Thư viện ảnh</h2>
             <div class="gallery">
                 <img src="images/image1.jpg" alt="Ảnh 1">
                 <img src="images/image2.jpg" alt="Ảnh 2">
                 <img src="images/image3.jpg" alt="Ảnh 3">
+            </div>
+        </section>
+        <section id="contact" class="container">
+            <h2>Liên hệ</h2>
+            <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+            <p>Theo dõi tôi trên:</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
             </div>
         </section>
     </main>
